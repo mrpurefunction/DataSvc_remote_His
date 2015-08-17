@@ -71,7 +71,14 @@ namespace EnvirPortal_Data
                     (new Business()).AddRemoteEnvirMonitorData(DateTime.Now.AddDays(-65), DateTime.Now);
                     //(new Business()).AddRemoteExceptionGroupData(DateTime.Now.AddDays(-120), DateTime.Now);
                     //(new Business()).AddRemoteExceptionRuleLogMatchData(DateTime.Now.AddDays(-120), DateTime.Now);
-                    (new Business()).AddRemoteGroupRulesData(DateTime.Now.AddDays(-120), DateTime.Now);
+
+                    //(new Business()).AddRemoteGroupRulesData(DateTime.Now.AddDays(-120), DateTime.Now);
+                    //add sync func for group rule data
+                    EPASync.ComparerEngine ce = new EPASync.ComparerEngine();
+                    ce.InitRls(DateTime.Now.AddDays(-95), DateTime.Now, 1);
+                    ce.MarkRls();
+                    ce.CommitRls();
+
                     (new Business()).AddRemotePIAvgData(DateTime.Now.AddDays(-14), DateTime.Now);
 
                     //(new Business()).AddRemoteEnvirMonitorData(DateTime.Now.AddDays(-7), DateTime.Now);
