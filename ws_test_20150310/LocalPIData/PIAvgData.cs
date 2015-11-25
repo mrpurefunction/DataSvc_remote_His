@@ -15,6 +15,7 @@ namespace LocalPIData
         /// </summary>
         public PIAvgData()
         {
+            //new PI.PIFunc2("10.136.36.42", "piadmin", "");
             new PI.PIFunc2("10.150.124.193", "pirw", "pirw");
         }
 
@@ -28,7 +29,8 @@ namespace LocalPIData
         /// <returns></returns>
         public double? GetAvgValue(string pn, DateTime st, DateTime et, int shift)
         {
-            return (new PI.PIFunc2("10.150.124.193", "pirw", "pirw")).GetAverageValue(pn, st.AddSeconds(shift), et.AddSeconds(shift));         
+            //return (new PI.PIFunc2("10.136.36.42", "piadmin", "")).GetAverageValue(pn, st.AddSeconds(shift), et.AddSeconds(shift));     
+            return (new PI.PIFunc2("10.150.124.193", "pirw", "pirw")).GetAverageValue(pn, st.AddSeconds(shift), et.AddSeconds(shift));
         }
     }
 }

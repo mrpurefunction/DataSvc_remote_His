@@ -75,7 +75,7 @@ namespace EnvirPortal_Data
                     //(new Business()).AddRemoteGroupRulesData(DateTime.Now.AddDays(-120), DateTime.Now);
                     //add sync func for group rule data
                     EPASync.ComparerEngine ce = new EPASync.ComparerEngine();
-                    ce.InitRls(DateTime.Now.AddDays(-95), DateTime.Now, 1);
+                    ce.InitRls(DateTime.Now.AddDays(-180), DateTime.Now, Business.plantid);// last parameter: plantid
                     ce.MarkRls();
                     ce.CommitRls();
 

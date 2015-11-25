@@ -120,8 +120,8 @@ C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\DataSvc_remote_His\ws_test_201
 C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\DataSvc_remote_His\ws_test_20150310\EnvirPortal_Data\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\DataSvc_remote_His\ws_test_20150310\EnvirPortal_Data\bin\Debug\Microsoft.Practices.Unity.pdb
 C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\DataSvc_remote_His\ws_test_20150310\EnvirPortal_Data\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
-C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\DataSvc_remote_His\ws_test_20150310\EnvirPortal_Data\obj\x86\Debug\EnvirPortal_Data.csprojResolveAssemblyReference.cache
 C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\DataSvc_remote_His\ws_test_20150310\EnvirPortal_Data\obj\x86\Debug\EnvirPortal_Data.exe
 C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\DataSvc_remote_His\ws_test_20150310\EnvirPortal_Data\obj\x86\Debug\EnvirPortal_Data.pdb
 C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\DataSvc_remote_His\ws_test_20150310\EnvirPortal_Data\bin\Debug\EPASync.dll
 C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\DataSvc_remote_His\ws_test_20150310\EnvirPortal_Data\bin\Debug\EPASync.pdb
+C:\Users\zhefeng\Documents\Projects\ZHIQI\YueQing\DataSvc_remote_His\ws_test_20150310\EnvirPortal_Data\obj\x86\Debug\EnvirPortal_Data.csprojResolveAssemblyReference.cache
