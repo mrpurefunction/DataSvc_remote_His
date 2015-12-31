@@ -79,7 +79,7 @@ namespace EnvirPortal_Data
                     ce.MarkRls();
                     ce.CommitRls();
 
-                    (new Business()).AddRemotePIAvgData(DateTime.Now.AddDays(-14), DateTime.Now);
+                    (new Business()).AddRemotePIAvgData(DateTime.Now.AddDays(-90), DateTime.Now);
 
                     //(new Business()).AddRemoteEnvirMonitorData(DateTime.Now.AddDays(-7), DateTime.Now);
                     //(new Business()).UpdateRemoteExceptionGroupData(DateTime.Now.AddDays(-7), DateTime.Now);
