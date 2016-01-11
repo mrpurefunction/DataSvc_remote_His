@@ -7,6 +7,8 @@ using System.Data;
 using Microsoft.Practices.EnterpriseLibrary.Data;
 using Microsoft.Practices.EnterpriseLibrary.Common;
 
+using System.Configuration;
+
 namespace EnvirPortal_Data
 {
     
@@ -18,7 +20,8 @@ namespace EnvirPortal_Data
         /// <summary>
         /// 
         /// </summary>
-        public static int plantid = 1;
+        //modified 20160108
+        public static int plantid = int.Parse((string)(new AppSettingsReader()).GetValue("plantid", typeof(string)));
 
         /// <summary>
         /// 
